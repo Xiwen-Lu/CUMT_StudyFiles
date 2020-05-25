@@ -1,0 +1,175 @@
+const	int	0	cint
+const	char	97	cchar
+char	  	  	gchara
+int	  	  	ginta
+int	  	  	gintb
+func	int	  	factor
+para	int	  	n
+==	n	1	  
+jne	  	  	_LABEL_0
+ret	  	  	1
+jmp	  	  	_LABEL_1
+lab:	  	  	_LABEL_0
+lab:	  	  	_LABEL_1
+-	n	1	$_0
+fupa	  	  	$_0
+call	factor	  	$_1
+*	n	$_1	$_2
+ret	  	  	$_2
+end	  	  	factor
+func	void	  	MyDefine
+const	int	0	int0
+const	int	1	int1
+const	int	2	int2
+const	int	3	int3
+const	int	4	int4
+const	int	5	int5
+const	int	6	int6
+const	int	7	int7
+int	  	  	int1
+int	  	  	int2
+int	  	  	int3
+int	  	  	int4
+int	  	  	int5
+int	  	  	int6
+int	  	  	int7
+int	  	  	int8
+int	  	  	int9
+int	  	  	int10
+int	  	  	int11
+int	  	  	int12
+int	  	  	int13
+char	  	  	char1
+char	  	  	char2
+char	  	  	char3
+char	  	  	char4
+char	  	  	char5
+char	  	  	char6
+char	  	  	char7
+char	  	  	char8
+char	  	  	char9
+char	  	  	char10
+char	  	  	char11
+char	  	  	char12
+char	  	  	char13
+end	  	  	MyDefine
+func	int	  	fibo
+para	int	  	n
+<	n	0	  
+jne	  	  	_LABEL_2
+-	0 	1	$_0
+ret	  	  	$_0
+jmp	  	  	_LABEL_3
+lab:	  	  	_LABEL_2
+==	n	0	  
+jne	  	  	_LABEL_4
+ret	  	  	0
+jmp	  	  	_LABEL_5
+lab:	  	  	_LABEL_4
+==	n	1	  
+jne	  	  	_LABEL_6
+ret	  	  	1
+jmp	  	  	_LABEL_7
+lab:	  	  	_LABEL_6
+>	n	10	  
+jne	  	  	_LABEL_8
+-	0 	2	$_1
+ret	  	  	$_1
+jmp	  	  	_LABEL_9
+lab:	  	  	_LABEL_8
+-	n	1	$_2
+fupa	  	  	$_2
+call	fibo	  	$_3
+-	n	2	$_4
+fupa	  	  	$_4
+call	fibo	  	$_5
++	$_3	$_5	$_6
+ret	  	  	$_6
+lab:	  	  	_LABEL_9
+lab:	  	  	_LABEL_7
+lab:	  	  	_LABEL_5
+lab:	  	  	_LABEL_3
+end	  	  	fibo
+func	  	  	main
+int	  	  	num1
+int	  	  	num2
+int	  	  	ccc
+int	  	  	i
+inta	  	15	a
+inta	  	15	b
+scf	  	  	ccc
+scf	  	  	num1
+call	MyDefine	  	  
+==	ccc	1	  
+jne	  	  	_LABEL_11
+fupa	  	  	num1
+call	factor	  	$_0
+prt		$_0	int
+jmp	  	  	_LABEL_10
+lab:	  	  	_LABEL_11
+==	ccc	2	  
+jne	  	  	_LABEL_12
+fupa	  	  	num1
+call	fibo	  	$_1
+prt		$_1	int
+jmp	  	  	_LABEL_10
+lab:	  	  	_LABEL_12
+==	ccc	3	  
+jne	  	  	_LABEL_13
+jmp	  	  	_LABEL_10
+lab:	  	  	_LABEL_13
+[]=	a	0	1
+[]=	b	1	3
+[]=	a	3	4
+[]=	b	4	6
+[]=	a	6	8
+geta	a	0	$_2
+geta	b	$_2	$_3
+geta	a	$_3	$_4
+geta	b	$_4	$_5
+geta	a	$_5	$_6
+[]=	b	$_6	2333
+geta	a	0	$_7
+geta	b	8	$_8
++	$_7	$_8	$_9
+prt		$_9	int
+lab:	  	  	_LABEL_10
+scf	  	  	gchara
+==	gchara	97	  
+jne	  	  	_LABEL_15
+=	1	  	ginta
+jmp	  	  	_LABEL_14
+lab:	  	  	_LABEL_15
+==	gchara	98	  
+jne	  	  	_LABEL_16
+=	2	  	ginta
+jmp	  	  	_LABEL_14
+lab:	  	  	_LABEL_16
+==	gchara	99	  
+jne	  	  	_LABEL_17
+=	10086	  	gintb
+=	98	  	gchara
+=	10000	  	ginta
+=	10000	  	gintb
+prt		gintb	int
+prt	"Finish!"		int
+jmp	  	  	_LABEL_14
+lab:	  	  	_LABEL_17
+=	3	  	ginta
+lab:	  	  	_LABEL_14
+prt		ginta	int
+scf	  	  	num1
+=	0	  	i
+jmp	  	  	_LABEL_20
+lab:	  	  	_LABEL_18
+<	i	num1	  
+jne	  	  	_LABEL_19
+lab:	  	  	_LABEL_20
+prt	"for-->"	i	int
++	i	1	$_10
+=	$_10	  	i
+jmp	  	  	_LABEL_18
+lab:	  	  	_LABEL_19
+prt	"the end"		int
+ret	  	  	  
+end	  	  	main

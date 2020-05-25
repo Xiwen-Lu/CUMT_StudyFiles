@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:alignmentMode="alignBounds"
+    android:rowCount="9"
+    android:columnCount="4"
+    android:orientation="horizontal"
+
+    tools:context=".MainActivity"
+    tools:ignore="GridLayout">
+    <!-- orientation="horizontal"水平布局
+                      vertical   垂直布局
+                      rowCount   最大行数
+                      columnCount 最大列数
+                      alignmentMode 对齐模式-->
+    <EditText
+        android:id="@+id/edit"
+        android:layout_gravity="center"
+        android:text=" "
+        android:textSize="35dp"
+        android:layout_columnSpan="4"
+        android:layout_rowWeight="5"
+        android:layout_columnWeight="1" />
+    <TextView
+        android:id="@+id/view"
+        android:layout_gravity="center"
+        android:text="0"
+        android:textSize="45dp"
+        android:layout_columnSpan="4"
+        android:layout_rowWeight="3"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:id="@+id/dot"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:textColor="#7C7D82"
+        android:text="基础版"
+        android:textSize="24dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+    <Button
+        android:id="@+id/Clean"
+        android:layout_margin="1dp"
+        android:background="#FB7730"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:text="AC"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+    <Button
+        android:id="@+id/cacl"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:textColor="#7C7D82"
+        android:text="="
+        android:textSize="24dp"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+</GridLayout>

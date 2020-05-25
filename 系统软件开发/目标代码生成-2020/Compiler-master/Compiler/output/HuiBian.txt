@@ -1,0 +1,4 @@
+ASSUME CS:codesg
+codesg segment
+codesg ends
+end

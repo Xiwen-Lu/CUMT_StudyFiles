@@ -1,0 +1,40 @@
+
+
+
+
+
+void main()
+{
+	int tmp;
+	int i,j,num;
+	int arr[4];
+	num = 4;
+	
+	for(i=0;i<4;i=i+1){
+		scanf(tmp);
+		arr[i]=tmp;
+		
+	}
+	
+	
+	for(i=0;i<num-1;i=i+1){
+        for(j=0;j<num-i-1;j=j+1){
+            if(arr[j]>arr[j+1]){
+                tmp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = tmp;
+            }
+        }
+    }
+	
+	printf("The result:");
+	for(i=0;i<4;i=i+1){
+		tmp=arr[i];
+		printf(tmp);
+		
+	}
+	
+	
+	
+	return;
+}

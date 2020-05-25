@@ -1,0 +1,56 @@
+
+
+int operation(int x, int y, int kind)
+{
+    switch (kind)
+    {
+        case 1:
+        {
+             printf("operation:",x+y);
+             return(x+y);
+        }
+        case 2:
+        {
+            printf("operation:",x-y);
+            return(x-y);
+        }
+        case 3:
+        {
+            printf("operation:",x*y);
+            return(x*y);
+        }
+        case 4:
+        {
+            if (y!=0)
+            {
+                printf("operation:",x/y);
+                return(x/y);
+            }
+            else{
+                printf("cannot div 0!!!");
+                return(0);
+            }
+        }
+        default:
+        {
+            printf("operation kind is not in [+-*/]!!!");
+            return(-1);
+        }
+    }
+}
+
+
+
+
+void main()
+{
+	int x,y;
+	int kind;
+	int ans;
+	scanf(x,y,kind);
+    ans = operation(x,y,kind);
+	
+	
+	
+	return;
+}

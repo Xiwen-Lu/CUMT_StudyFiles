@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:alignmentMode="alignBounds"
+    android:rowCount="9"
+    android:columnCount="4"
+    android:orientation="horizontal"
+
+    tools:context=".MainActivity"
+    tools:ignore="GridLayout">
+    <!-- orientation="horizontal"水平布局
+                      vertical   垂直布局
+                      rowCount   最大行数
+                      columnCount 最大列数
+                      alignmentMode 对齐模式-->
+    <EditText
+        android:id="@+id/edit"
+        android:layout_gravity="center"
+        android:text=" "
+        android:textSize="35dp"
+        android:layout_columnSpan="4"
+        android:layout_rowWeight="3"
+        android:layout_columnWeight="1" />
+    <TextView
+        android:id="@+id/view"
+        android:layout_gravity="center"
+        android:text="0"
+        android:textSize="45dp"
+        android:layout_columnSpan="4"
+        android:layout_rowWeight="3"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag="+"
+        android:text="+"
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/substact"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag="-"
+        android:text="-"
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag="*"
+        android:text="×"
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag="/"
+        android:text="÷"
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag="7"
+        android:text="7"
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag="8"
+        android:text="8"
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/nine"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag="9"
+        android:text="9"
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/left"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag="("
+        android:text="("
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/four"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag="4"
+        android:text="4"
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/five"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag="5"
+        android:text="5"
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/six"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag="6"
+        android:text="6"
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/right"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag=")"
+        android:text=")"
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/three"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag="3"
+        android:text="3"
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/two"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag="2"
+        android:text="2"
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/one"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag="1"
+        android:text="1"
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+    <Button
+        android:id="@+id/Clean"
+        android:layout_margin="1dp"
+        android:background="#FB7730"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:text="AC"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+    <Button
+        android:id="@+id/dot"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:textColor="#7C7D82"
+        android:text="高级版"
+        android:textSize="24dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+
+    <Button
+        android:id="@+id/zero"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:tag="0"
+        android:text="0"
+        android:textColor="#7C7D82"
+        android:textSize="24dp" />
+    <Button
+        android:id="@+id/equal"
+        android:layout_margin="1dp"
+        android:background="#FAFAFA"
+        android:textColor="#7C7D82"
+        android:text="="
+        android:textSize="24dp"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        />
+</GridLayout>

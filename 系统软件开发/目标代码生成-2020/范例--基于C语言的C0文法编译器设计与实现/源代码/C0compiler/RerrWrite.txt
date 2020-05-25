@@ -1,0 +1,9 @@
+Error1 : At Line21, Near symbol "COMMASY" :	SYMBOL CONFLICT
+Error2 : At Line21, Near symbol "COMMASY" :	SYMBOL CONFLICT
+Error3 : At Line21, Near symbol "COMMASY" :	SYMBOL CONFLICT
+Error4 : At Line21, Near symbol "COMMASY" :	SYMBOL CONFLICT
+Error5 : At Line22, Near symbol "COMMASY" :	SYMBOL CONFLICT
+Error6 : At Line22, Near symbol "COMMASY" :	SYMBOL CONFLICT
+Error7 : At Line22, Near symbol "COMMASY" :	SYMBOL CONFLICT
+Error8 : At Line91, Near symbol "SEMICOLONSY" :	VAR NOT DEFINE
+Error9 : At Line91, Near symbol "SEMICOLONSY" :	IDENTIFIER LACK

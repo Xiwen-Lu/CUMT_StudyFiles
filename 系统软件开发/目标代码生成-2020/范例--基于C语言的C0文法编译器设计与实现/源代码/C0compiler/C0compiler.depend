@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1514943984 source:c:\users\psyche\documents\codeblock\c0compiler\filetostring.cpp
+	<iostream>
+	<fstream>
+	<cassert>
+
+1511851495 c:\users\psyche\documents\codeblock\c0compiler\filetostring.hpp
+	<stdio.h>
+	<iostream>
+	<fstream>
+	<cassert>
+
+1511847312 c:\users\psyche\documents\codeblock\c0compiler\globalvar.h
+	<iostream>
+	<fstream>
+
+1514942098 source:c:\users\psyche\documents\codeblock\c0compiler\getsym.cpp
+	<cstdlib>
+	<string.h>
+	<iostream>
+	<fstream>
+	"global.h"
+	"err.h"
+
+1514787745 c:\users\psyche\documents\codeblock\c0compiler\global.h
+	<iostream>
+	<fstream>
+
+1514943999 source:c:\users\psyche\documents\codeblock\c0compiler\main.cpp
+	"global.h"
+
+1514943557 source:c:\users\psyche\documents\codeblock\c0compiler\syn.cpp
+	<cstdlib>
+	<string.h>
+	<iostream>
+	<fstream>
+	"global.h"
+	"err.h"
+	<vector>
+
+1511833270 c:\users\psyche\documents\codeblock\c0compiler\syn.hpp
+	<stdio.h>
+
+1513673339 source:c:\users\psyche\documents\codeblock\c0compiler\fourvarcode.cpp
+	<cstdlib>
+	<string.h>
+	<iostream>
+	<fstream>
+	"global.h"
+	<vector>
+
+1513520961 source:c:\users\psyche\documents\codeblock\c0compiler\tocompiler.cpp
+	<cstdlib>
+	<string.h>
+	<iostream>
+	<fstream>
+	<vector>
+	"global.h"
+
+1514942417 source:c:\users\psyche\documents\codeblock\c0compiler\err.cpp
+	"global.h"
+	"err.h"
+	<stdlib.h>
+	<stdio.h>
+
+1514910336 c:\users\psyche\documents\codeblock\c0compiler\err.h
+
+1515889032 source:c:\users\psyche\desktop\14005019_ºúÑî_²âÊÔ³ÌÐò¶þ\c0compiler\err.cpp
+	"global.h"
+	<stdlib.h>
+	<stdio.h>
+
+1515888963 c:\users\psyche\desktop\14005019_ºúÑî_²âÊÔ³ÌÐò¶þ\c0compiler\global.h
+	<iostream>
+	<fstream>
+
+1515888968 c:\users\psyche\desktop\14005019_ºúÑî_²âÊÔ³ÌÐò¶þ\c0compiler\err.h
+
+1515857790 source:c:\users\psyche\desktop\14005019_ºúÑî_²âÊÔ³ÌÐò¶þ\c0compiler\filetostring.cpp
+	<iostream>
+	<fstream>
+	<cassert>
+
+1515826894 source:c:\users\psyche\desktop\14005019_ºúÑî_²âÊÔ³ÌÐò¶þ\c0compiler\fourvarcode.cpp
+	<cstdlib>
+	<string.h>
+	<iostream>
+	<fstream>
+	"global.h"
+	<vector>
+
+1515889030 source:c:\users\psyche\desktop\14005019_ºúÑî_²âÊÔ³ÌÐò¶þ\c0compiler\getsym.cpp
+	<cstdlib>
+	<string.h>
+	<iostream>
+	<fstream>
+	"global.h"
+
+1515857409 source:c:\users\psyche\desktop\14005019_ºúÑî_²âÊÔ³ÌÐò¶þ\c0compiler\main.cpp
+	"global.h"
+
+1515889032 source:c:\users\psyche\desktop\14005019_ºúÑî_²âÊÔ³ÌÐò¶þ\c0compiler\syn.cpp
+	<cstdlib>
+	<string.h>
+	<iostream>
+	<fstream>
+	"global.h"
+	<vector>
+
+1515857850 source:c:\users\psyche\desktop\14005019_ºúÑî_²âÊÔ³ÌÐò¶þ\c0compiler\tocompiler.cpp
+	<cstdlib>
+	<string.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	"global.h"
+

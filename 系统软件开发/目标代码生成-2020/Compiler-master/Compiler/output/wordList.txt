@@ -1,0 +1,10 @@
+单词序号	单词的值		单词类型		单词所在行 	单词是否合法
+1	void		关键字		2	true
+2	main		关键字		2	true
+3	(		界符		2	true
+4	)		界符		2	true
+5	{		界符		2	true
+6	a		标志符		3	true
+7	}		界符		4	true
+8	#		结束符		5	true
+词法分析通过：
