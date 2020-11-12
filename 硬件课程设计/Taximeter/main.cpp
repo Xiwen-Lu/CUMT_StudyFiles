@@ -4,7 +4,7 @@
 #include<iostream>
 using namespace std;
 #pragma comment(lib,"ApiExUsb.lib")
-
+//核心类文件，TAXIMETER
 #include"TAXIMETER.h"
 
 int main(){
