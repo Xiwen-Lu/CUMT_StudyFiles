@@ -1,0 +1,15 @@
+127.0.0.1 - - [13/May/2020:22:33:57 +0800] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [13/May/2020:22:33:58 +0800] "GET /MasterAdmissionNet/index.jsp HTTP/1.1" 200 556
+0:0:0:0:0:0:0:1 - - [13/May/2020:22:34:01 +0800] "GET /MasterAdmissionNet/jsp/login.jsp HTTP/1.1" 200 1792
+0:0:0:0:0:0:0:1 - - [13/May/2020:22:34:01 +0800] "GET /MasterAdmissionNet/js/jquery-1.11.1.min.js HTTP/1.1" 200 95790
+0:0:0:0:0:0:0:1 - - [13/May/2020:22:34:01 +0800] "GET /MasterAdmissionNet/css/login.css HTTP/1.1" 200 1660
+0:0:0:0:0:0:0:1 - - [13/May/2020:22:34:02 +0800] "GET /MasterAdmissionNet/images/login-image-2.png HTTP/1.1" 200 23424
+0:0:0:0:0:0:0:1 - - [13/May/2020:22:34:02 +0800] "GET /MasterAdmissionNet/images/user.png HTTP/1.1" 200 3825
+0:0:0:0:0:0:0:1 - - [13/May/2020:22:34:02 +0800] "GET /MasterAdmissionNet/images/login-image-3.png HTTP/1.1" 200 26872
+0:0:0:0:0:0:0:1 - - [13/May/2020:22:34:02 +0800] "GET /MasterAdmissionNet/images/login-image-1.png HTTP/1.1" 200 12658
+0:0:0:0:0:0:0:1 - - [13/May/2020:22:34:02 +0800] "GET /MasterAdmissionNet/images/bk-login.png HTTP/1.1" 200 504968
+0:0:0:0:0:0:0:1 - - [13/May/2020:22:34:02 +0800] "GET /MasterAdmissionNet/images/footerBg.png HTTP/1.1" 200 1889
+0:0:0:0:0:0:0:1 - - [13/May/2020:22:34:09 +0800] "GET /MasterAdmissionNet/jsp/zhuce.jsp HTTP/1.1" 200 1700
+0:0:0:0:0:0:0:1 - - [13/May/2020:22:34:09 +0800] "GET /MasterAdmissionNet/css/zhuce.css HTTP/1.1" 200 2416
+0:0:0:0:0:0:0:1 - - [13/May/2020:22:34:09 +0800] "GET /MasterAdmissionNet/images/zhuce-image-1.png HTTP/1.1" 200 20650
+0:0:0:0:0:0:0:1 - - [13/May/2020:22:34:09 +0800] "GET /MasterAdmissionNet/images/bk-zhuce-1.png HTTP/1.1" 200 509703

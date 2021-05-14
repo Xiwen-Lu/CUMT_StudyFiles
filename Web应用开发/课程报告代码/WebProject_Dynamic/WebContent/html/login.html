@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>齐心抗疫，共克时艰——登录</title>
+<link type="text/css" rel="stylesheet" href="../css/login.css" />
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	var height=$(document).height();
+	$('.main').css('height',height);
+})
+</script>
+</head>
+
+<body>
+<form action="../jsp/loginCheck.jsp" method="post" name="loginForm" class="info">
+<div class="main">
+  <div class="main0">
+     <div class="main_left">
+        <img src="../images/login-image-3.png" class="theimg"/>
+        <img src="../images/login-image-2.png" class="secimg"/>
+        <img src="../images/login-image-1.png" class="firimg"/>
+     </div>
+     <div class="main_right">
+        <div class="main_r_up">
+            <img src="../images/user.png" />
+            <div class="pp">登录</div>
+        </div>
+        <div class="sub"><p>还没有账号？<a href="../jsp/zhuce.jsp"><span class="blue">立即注册</span></a></p></div>
+        <div class="txt">
+            <span style="letter-spacing:8px;">用户名:</span>
+            <input name="ID" type="text" class="txtphone" placeholder="请输入手机号或用户名"/>
+        </div>
+        <div class="txt">
+            <span style="letter-spacing:4px;">登录密码:</span>
+            <input name="password" type="text" class="txtphone" placeholder="请输入登录密码"/>
+        </div>
+
+        <input type="submit" value="登录" class="xiayibu">
+     </div>
+  </div>
+</div>
+</form>
+
+
+<footer>
+     制作：陆玺文&emsp;计科6班&emsp;03170908&ensp;.
+</footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>研招信息填充表单</title>
+</head>
+<body>
+<form action="../infoCreate" method="post" style="position: absolute;left: 50%;top: 60px;transform: translate(-50%,0);">
+<table>
+<tr>
+<td>学校：</td><td><input name="School" value="中国矿业大学"></td>
+</tr>
+<tr>
+<td>夏令营链接：</td><td><input name="PreachLink" type="url" value=""><td>
+</tr>
+<tr>
+<td>夏令营报名截止时间：</td><td><input name="SummerApplyFinishTime" type="date"></td>
+</tr>
+<tr>
+<td>夏令营开始时间：</td><td><input name="SummerActivityStart" type="date"></td>
+</tr>
+<tr>
+<td>夏令营截止时间：</td><td><input name="SummerActivityFinish" type="date"></td>
+</tr>
+<tr>
+<td>需要推荐信数量：</td><td><input name="RecommendationLetterNum" type="number" min="0" max="4" value="0"></td>
+</tr>
+<tr>
+<td>研招官网地址：</td><td><input name="SchoolHomePage" type="url" value=""></td>
+</tr>
+<tr>
+<td>备注：</td><td><input name="Others" type="text" value=""></td>
+</tr>
+
+</table>
+<button type="submit">提交</button>
+
+
+</form>
+</body>
+</html>

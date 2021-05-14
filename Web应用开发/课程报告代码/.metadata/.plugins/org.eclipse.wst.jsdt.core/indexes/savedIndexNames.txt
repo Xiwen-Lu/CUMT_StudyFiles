@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+E:\学习资源\CS平台课\Web技术\实验2_动态网页\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1698642276.index
+622370811.index
+3149084191.index
+2126786207.index
+3414029231.index
+120832991.index
+1791529414.index
+1417372977.index
+1796613111.index
+2307334399.index
