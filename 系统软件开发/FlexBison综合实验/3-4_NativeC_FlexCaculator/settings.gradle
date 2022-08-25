@@ -1,0 +1,2 @@
+rootProject.name='NativeC_FlexCaculator'
+include ':app'

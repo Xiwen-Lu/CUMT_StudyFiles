@@ -1,0 +1,24 @@
+<annotation>
+	<filename>zhadong_23.xml</filename>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>zhadong</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>150.5</xmin>
+			<ymin>161.5</ymin>
+			<xmax>265.5</xmax>
+			<ymax>254.5</ymax>
+		</bndbox>
+	</object>
+</annotation>

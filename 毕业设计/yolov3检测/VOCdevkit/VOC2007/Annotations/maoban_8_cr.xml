@@ -1,0 +1,24 @@
+<annotation>
+	<filename>maoban_8.xml</filename>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>maoban</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>129.5</xmin>
+			<ymin>151.5</ymin>
+			<xmax>286.5</xmax>
+			<ymax>264.5</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>布匹缺陷检测演示</title>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+<strong>布匹缺陷检测演示系统</strong><br>
+
+<form id="upload-form" style="align-items: center;display: flex" action="{{ url_for('predict') }}" method="POST" enctype="multipart/form-data">
+
+
+    <input id="file-picker" type="file" name="file" accept="image/*" multiple>
+    <br>
+    <input type="submit" value="上传文件" id="upload-button">
+    <div id="msg"></div>
+</form>
+</body>
+<script>
+
+    $("#file-picker").change(function(){
+
+        var input = document.getElementById('file-picker');
+
+        for (var i=0; i<input.files.length; i++)
+        {
+        //koala.jpg, koala.JPG substring(index) lastIndexOf('a') koala.1.jpg
+            var ext= input.files[i].name.substring(input.files[i].name.lastIndexOf('.')+1).toLowerCase()
+
+            if ((ext == 'jpg') || (ext == 'png'))
+            {
+                $("#msg").text("文件上传成功，正在处理……")
+            }
+            else
+            {
+                $("#msg").text("文件格式不支持")
+                document.getElementById("file-picker").value ="";
+            }
+
+        }
+
+
+    } );
+
+</script>
+</html>
