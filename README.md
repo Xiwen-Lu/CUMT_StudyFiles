@@ -32,7 +32,7 @@
 
 # 初衷
 ---
->大三第5周第一天，这几天在实验室总感觉学习不够高效，装备将所学所练记录下来，让成果可视化，自我激励，自我 **push** !。 2019.9.23 陆玺文
+>大三第5周第一天，这几天在实验室总感觉学习不够高效，准备将所学所练记录下来，让成果可视化，自我激励，自我 **push** !。 2019.9.23 陆玺文
 
 >Today is the first day of the fifth week of my junior year in CUMT.These days, I've been feeling very inefficient in the lab lately.From morning till night, a lot of time is put in, a few results are seen.So, i want to record what i have learned and practiced in Github to motivate myself.
 2019.9.23
